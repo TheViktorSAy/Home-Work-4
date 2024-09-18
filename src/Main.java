@@ -49,15 +49,15 @@ public class Main {
 
         // Задание 5
 
-        int ageChild = 13;
-
-        if (ageChild < 5 && ageChild < 14) {
+        int ageChild = 14;
+        if (ageChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему нельзя кататься на атракционе");
         }
-        if (ageChild >= 5 && ageChild < 14) {
+        if (ageChild >= 5) {
             System.out.println("Если возраст ребенка равен " + ageChild + " то ему можно кататься в сопровождении. Если взрослого нет, то кататься нельзя.");
-        } else {
-            System.out.println("Возраст человека " + ageChild + "  ему можно кататься без сопровождения.");
+        }
+        if (ageChild >= 14) {
+            System.out.println("Возраст ребенка " + ageChild + "  ему можно кататься без сопровождения.");
         }
 
 
